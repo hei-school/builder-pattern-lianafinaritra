@@ -5,5 +5,5 @@ public interface Builder {
     void setSeats(int seats);
     void setEngine(Engine engine);
     void setGPS(String position);
-    void setTripComputer(int tripComputer);
+    void setTripComputer(String tripComputer);
 }
