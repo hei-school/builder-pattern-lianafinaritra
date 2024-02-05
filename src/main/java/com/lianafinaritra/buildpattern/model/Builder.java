@@ -1,9 +1,9 @@
 package com.lianafinaritra.buildpattern.model;
 
 public interface Builder {
-    void reset();
-    void setSeats(int seats);
-    void setEngine(Engine engine);
-    void setGPS(String position);
-    void setTripComputer(String tripComputer);
+    public void reset();
+    public void setSeats(int seats);
+    public void setEngine(Engine engine);
+    public void setGPS(String position);
+    public void setTripComputer(String tripComputer);
 }

@@ -1,5 +1,10 @@
 package com.lianafinaritra.buildpattern.model;
 
+import lombok.Getter;
+import lombok.Setter;
+
+@Getter
+@Setter
 public class Engine {
     private final String name;
 
@@ -7,7 +12,4 @@ public class Engine {
         this.name = name;
     }
 
-    public String getName() {
-        return name;
-    }
 }
